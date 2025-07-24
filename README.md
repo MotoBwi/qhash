@@ -1,6 +1,6 @@
 # kokoro
 
-An inference library for [Qhash-TTS]([https://huggingface.co/hexgrad/Kokoro-82M](https://huggingface.co/Quantumhash/Qhash-TTS)). You can [`pip install kokoro`](https://pypi.org/project/qhash/).
+An inference library for [Qhash-TTS]([https://huggingface.co/hexgrad/Kokoro-82M](https://huggingface.co/Quantumhash/Qhash-TTS)). You can [`pip install qhash`](https://pypi.org/project/qhash/).
 
 > **Qhash** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.
 
