@@ -2,7 +2,7 @@
 
 An inference library for [Qhash-TTS](https://huggingface.co/Quantumhash/Qhash-TTS). You can [`pip install qhash`](https://pypi.org/project/qhash/).
 
-> **Qhash** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed anywhere from production environments to personal projects.
+> **Qhash** is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, Qhash can be deployed anywhere from production environments to personal projects.
 
 ### Usage
 You can run this basic cell on [Google Colab](https://colab.research.google.com/). [Listen to samples](https://huggingface.co/Quantumhash/Qhash-TTS/tree/main/samples).
@@ -100,7 +100,7 @@ For advanced configuration and usage on Windows, see the [official espeak-ng Win
 On Mac M1/M2/M3/M4 devices, you can explicitly specify the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to enable GPU acceleration.
 
 ```bash
-PYTORCH_ENABLE_MPS_FALLBACK=1 python run-your-kokoro-script.py
+PYTORCH_ENABLE_MPS_FALLBACK=1 python run-your-qhash-script.py
 ```
 
 ### Conda Environment
